@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Smart Parking",
+    "slug": "smart-parking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "plugins": [
+      "expo-secure-store",
+      ["expo-location", { "locationWhenInUsePermission": "Allow Smart Parking to use your location to find parking near you." }]
+    ]
+  }
+}
